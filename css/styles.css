@@ -1,0 +1,288 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+
+    padding: 3% 15% 7%;
+}
+
+ h1 {
+    
+    font-size: 3.5rem;  
+    line-height: 1.5;
+    font-weight: 900;
+    color: rgb(252, 247, 247);
+}
+
+h2 {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 900
+}
+
+h4{
+    font-weight: 900;
+}
+
+p {
+    color: #484646;
+    padding: 10px;
+}
+
+
+
+
+
+/*Navigation Bar*/
+
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+
+
+
+/* Download Buttons*/
+
+
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image*/
+
+.iph {
+    left: 60%;
+   width: 18%;
+   transform: rotate(25deg);
+   position: absolute;
+ }
+
+
+
+
+
+
+/*Feature section*/
+
+
+
+#features {
+    padding: 7% 15%;
+    background-color: rgb(239, 202, 216);
+    position: relative;
+    z-index: 1;
+    
+}
+
+.feature-box {
+
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+  margin-bottom: 2rem;
+  
+}
+
+.icon:hover {
+    color: rgb(237, 76, 51);
+}
+ 
+
+
+
+
+
+
+/* TESTIMONIAL SECTION*/
+
+#testimonials{
+    
+    text-align: center;
+    background-color:#ef8172;
+    color: #fff;
+}
+
+
+.testimonial-image {
+   width: 15%;
+   border-radius: 100%;
+   margin: 20px;
+}
+
+#press{
+    text-align: center;
+    background-color:#ef8172;
+    padding-bottom: 3%;
+}
+
+.loogoo {
+    width: 13%;
+     margin: 20px 20px 50px;
+ }
+
+ .carousel-item {
+    padding: 7% 15%;
+ }
+
+ em {
+    position: relative;
+    color: #fff;
+  top: 30px;
+  font-size: 1.3rem;
+}
+
+
+
+
+ /* Pricing*/
+
+ .card-header {
+    background-color: #e28b8b;
+}
+
+ #pricing{
+    padding:100px;
+    text-align: center;
+    background-color: rgb(239, 202, 216);
+}
+
+.pricing-col {
+    padding: 1% 2%;
+  
+}
+
+.Plan{
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.pln{
+    text-align: center;  
+    color:black;
+    font-size: 1.25rem;
+    padding-bottom: 20px;
+  }
+
+
+@media (max-width: 1028px) {
+    .iph {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.prc {
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+/*-- Call to Action */
+
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+.find {
+    
+   font-size: 3.5rem;
+   text-align: center;
+   color: #fff
+}
+
+
+
+
+
+/* Footer*/
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+ padding: 4% 15% 1%
+}
+
+.social-media {
+    color: black;
+   margin: 0% 1%;
+   position: relative;
+  bottom: 20px;
+  
+}
+
+.social-media:hover {
+    color:  #e28b8b;
+}
+
+
+.year {
+    position: relative;
+    top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myNm{
+    font-family: 'Splash', cursive;
+    font-size: 2rem;
+    color: #ef8172;
+}
